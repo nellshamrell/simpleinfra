@@ -1,4 +1,4 @@
-// Definition of the resources the CI of rust-lang/discord-mods-bot needs.
+// Definition of the resources the CI of rust-lang/crates-io-ops-bot needs.
 
 // ECR repository used to store the containers built by CI.
 
@@ -13,7 +13,7 @@ module "ecr" {
 //
 // The IAM Access Key is stored in AWS SSM Parameter Store under the key:
 //
-//    /iam-users/ci--rust-lang--discord-mods-bot/access-keys/ACCESS_KEY_ID
+//    /iam-users/ci--rust-lang--crates-io-ops-bot/access-keys/ACCESS_KEY_ID
 //
 
 resource "aws_iam_user" "ci" {
